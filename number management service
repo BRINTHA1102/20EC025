@@ -1,1 +1,21 @@
+import React from 'react';
+import Header from './components/header';
+import Prime from './components/prime';
+import Fibo  from './components/fibo';
+import Odd from './components/odd';
+import Random from './components/random';
+
+const App = () => {
+  return (
+    <div>
+      <Header/>
+      <Prime maxLimit={50} />
+      <Fibo count={10} />
+      <Odd maxLimit={30} />
+      <Random count={5} min={1} max={100} />
+    </div>
+  );
+};
+
+export default App;
 
