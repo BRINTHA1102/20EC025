@@ -1,0 +1,24 @@
+{
+    "trains": [
+      {
+        "id": 1,
+        "trainNumber": "TR123",
+        "destination": "City A",
+        "departureTime": "09:00"
+      },
+      {
+        "id": 2,
+        "trainNumber": "TR456",
+        "destination": "City B",
+        "departureTime": "10:30"
+      },
+      {
+        "id": 3,
+        "trainNumber": "TR789",
+        "destination": "City C",
+        "departureTime": "12:15"
+      }
+      
+    ]
+  }
+  
